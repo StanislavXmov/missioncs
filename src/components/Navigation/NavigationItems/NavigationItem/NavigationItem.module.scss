@@ -1,0 +1,88 @@
+.NavigationItem {
+  margin: 10px 0;
+  margin-left: 16px;
+  box-sizing: border-box;
+  display: block;
+  height:70%;
+  // width: 100%;
+  // border: 2px solid #fff;
+  // border-radius: .5rem;
+
+  
+  
+}
+
+
+
+.Item {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: 2px solid #fff;
+  border-radius: .5rem;
+  // &:hover , &:active, &.active {
+  //   color: #40A4C8;
+  // }
+  &:hover , &:active, &.active {
+    border-color: #dfff5f;
+    background-color: #4b4b4b;
+    color: #dfff5f;
+    
+    .Icon {
+      path {
+        fill: #dfff5f;
+      }
+      rect {
+        stroke: #dfff5f;
+      }
+    }
+  }
+}
+
+.Icon {
+  height: 100%;
+  svg {
+    height: 100%;
+    margin-right: 8px;
+  }
+  
+  path {
+    fill: #fff;
+  }
+  rect {
+    stroke: #fff;
+    stroke-width: 21;
+  }
+}
+
+
+// @media (min-width: 500px) {
+//   .NavigationItem {
+//     margin: 0;
+//     display: flex;
+//     align-items: center;
+//     height: 100%;
+//     width: auto;
+//   }
+  
+//   .NavigationItem a {
+//     color: #fff;
+//     text-decoration: none;
+//     height: 100%;
+//     padding: 16px 10px;
+//     border-bottom: 4px solid transparent;
+//   }
+//   .NavigationItem a:hover, 
+//   .NavigationItem a:active, 
+//   .NavigationItem a.active {
+//     background-color: #4b4b4b;
+//     border-bottom: 4px solid #40A4C8;
+//     color: #fff;
+//   }
+// }

@@ -1,0 +1,22 @@
+.Statistics {
+  width: 100%;
+  height: 100%;
+  h2 {
+    margin: 0;
+    text-align: left;
+    border-bottom: 2px solid #acacac;
+  }
+}
+// .Block {
+
+// }
+
+.List {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+
+  li {
+    padding: 6px 0;
+  }
+}

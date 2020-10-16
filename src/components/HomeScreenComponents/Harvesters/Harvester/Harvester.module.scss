@@ -1,0 +1,36 @@
+.Harvester {
+  width: 36%;
+  min-width: 280px;
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  background: #2a2a2a;
+  border: 2px solid #acacac;
+  border-radius: 2rem;
+}
+.HarvesterImg {
+  img {
+    width: 100%;
+  }
+  
+}
+.Block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 20px;
+  .Title {
+    font-size: 2rem;
+    border-bottom: 2px solid #fff;
+  }
+  .Perfomance {
+    margin: 12px 0;
+    font-weight: bold;
+  }
+  .Descr {
+    color: #acacac;
+  }
+  .Amount {
+    color: #fff;
+  }
+}

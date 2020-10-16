@@ -1,0 +1,43 @@
+.Harvester {
+  width: 25%;
+  min-width: 250px;
+  display: flex;
+  margin: 0 20px 20px;
+  padding: 20px;
+  background: #2a2a2a;
+  border: 2px solid #acacac;
+  border-radius: 2rem;
+  &.Selected {
+    border: 2px solid #dfff5f;
+    background: #acacac;
+  }
+}
+.HarvesterImg {
+  img {
+    width: 100%;
+  }
+  
+}
+.Block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 20px;
+  .Title {
+    color: #fff;
+    font-size: 2rem;
+    border-bottom: 2px solid #fff;
+  }
+  .SubTitle {
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  .Perfomance {
+    color: #fff;
+    margin: 12px 0;
+    font-weight: bold;
+  }
+  .Descr {
+    color: #acacac;
+  }
+}

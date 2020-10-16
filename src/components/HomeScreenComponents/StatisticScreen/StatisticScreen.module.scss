@@ -1,0 +1,21 @@
+.StatisticScreen {
+  width: 80%;
+  min-height: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 120px auto 20px;
+  border: 2px solid #acacac;
+  border-radius: 0.5rem;
+  background: #2a2a2a;
+}
+.Statistic {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  color: #fff;
+  font-size: 1.2rem;
+  svg {
+    margin-left: 4px;
+  }
+}

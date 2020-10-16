@@ -1,0 +1,97 @@
+.Store {
+  margin-top: 120px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  h1{
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0 8px;
+    border-bottom: 2px solid #acacac;
+    font-size: 2.4rem;
+    color: #acacac;
+    text-shadow: 0 0 0.1em transparent, 0 0 0.3em transparent;
+    transition: text-shadow 1s, border-color 1s, color 1s;
+    &:hover {
+      color: #dfff5f;
+      border-color: #dfff5f;
+      text-shadow: 0 0 0.1em, 0 0 0.3em;
+    }
+  }
+}
+.Block {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border: 2px solid #acacac;
+  border-radius: 2rem;
+  padding: 20px;
+}
+.Items {
+  display: flex;
+  flex: 0 0 70%;
+  flex-wrap: wrap;
+}
+.Sidebar {
+  display: flex;
+  flex-basis: 30%;
+  flex-direction: column;
+  align-items: center;
+  padding:  12px;
+  border: 2px solid #dfff5f;
+  border-radius: 2rem;
+  .Title {
+    margin-top: -38px;
+    margin-bottom: 12px;
+    padding: 10px 20px;
+    // border: 2px solid #acacac;
+    border-radius: .25rem;
+    background: #dfff5f;
+    color: #1e1e1e;
+  }
+  .Salesman {
+    padding: 10px;
+    background: #acacac;
+    border-radius: 2rem;
+    margin-bottom: 12px;
+    img {
+      width: 100%;
+    }
+    
+  }
+  .Descr {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    border: 2px solid #3c3c3c;
+    border-radius: 2rem;
+    .HavTitle {
+      color: #fff;
+      font-size: 2rem;
+      border-bottom: 2px solid #fff;
+    }
+    .HavSubTitle {
+      color: #fff;
+      font-size: 1.2rem;
+    }
+    .HavPerfomance {
+      color: #fff;
+      margin: 12px 0;
+      font-weight: bold;
+    }
+    .HavDescr {
+      color: #acacac;
+      margin-bottom: 12px;
+    }
+    .HavPrice {
+      display: flex;
+      align-items: center;
+      color: #fff;
+      font-weight: bold;
+      margin-bottom: 6px;
+      svg {
+        margin-left: 4px;
+      }
+    }
+
+  }
+}

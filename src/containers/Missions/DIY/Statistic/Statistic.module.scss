@@ -1,0 +1,16 @@
+.Statistic {
+  position: absolute;
+  top: 100px;
+  left: 12px;
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  background: #606060;
+  border: 2px solid #dfff5f;
+  border-radius: 1rem;
+  h2 {
+    margin: 0;
+    color: #fff;
+    margin-right: 12px;
+  }
+}

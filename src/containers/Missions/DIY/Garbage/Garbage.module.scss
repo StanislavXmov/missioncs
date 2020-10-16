@@ -1,0 +1,62 @@
+$bg-img: url('../../../../assets/images/garbage/g1.png');
+
+$b-img: url('../../../../assets/images/garbage/b.png');
+$ba-img: url('../../../../assets/images/garbage/ba.png');
+$bo-img: url('../../../../assets/images/garbage/bo.png');
+$c-img: url('../../../../assets/images/garbage/c.png');
+$d-img: url('../../../../assets/images/garbage/d.png');
+$p-img: url('../../../../assets/images/garbage/p.png');
+
+
+.Garbage {
+  position: absolute;
+  top: 30%;
+  right: 20%;
+  width: 200px;
+  height: 246px;
+  background-image: $bg-img;
+  background-size: cover;
+}
+
+.B {
+  position: absolute;
+  width: 50px;
+  height: 201px;
+  background-image: $b-img;
+  background-size: cover;
+}
+.Ba {
+  position: absolute;
+  width: 175px;
+  height: 182px;
+  background-image: $ba-img;
+  background-size: cover;
+}
+.Bo {
+  position: absolute;
+  width: 230px;
+  height: 226px;
+  background-image: $bo-img;
+  background-size: cover;
+}
+.C {
+  position: absolute;
+  width: 194px;
+  height: 156px;
+  background-image: $c-img;
+  background-size: cover;
+}
+.D {
+  position: absolute;
+  width: 136px;
+  height: 138px;
+  background-image: $d-img;
+  background-size: cover;
+}
+.P {
+  position: absolute;
+  width: 163px;
+  height: 133px;
+  background-image: $p-img;
+  background-size: cover;
+}

@@ -1,0 +1,30 @@
+.HomeNav {
+  width: 80%;
+  min-height: 40%;
+  margin: 12px auto;
+  
+}
+
+.Tabs {
+  padding: 10px 10px 0 10px ;
+  display: flex;
+  background: #2a2a2a;
+  border: 2px solid #acacac;
+  border-bottom: none;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.Viewport {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: #606060;
+  color: #fff;
+  border: 2px solid #acacac;
+  border-top: none;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+

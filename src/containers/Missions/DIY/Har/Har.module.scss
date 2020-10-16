@@ -1,0 +1,13 @@
+$bg-img: url('../../../../assets/images/harvesters/01Z.png');
+
+
+.Har {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 324px;
+  height: 330px;
+  background-color: transparent;
+  background-image: $bg-img;
+  background-size: cover;
+}

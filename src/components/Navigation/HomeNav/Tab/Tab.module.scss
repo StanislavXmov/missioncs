@@ -1,0 +1,29 @@
+// .Tab {
+  
+// }
+
+.TabItem {
+  display: block;
+  background: #4e4e4e;
+  min-width: 120px;
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  color: #acacac;
+  text-decoration: none;
+  border: 2px solid #acacac;
+  border-bottom: none;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  transition: 0.3s ease all;
+  
+  &.active {
+    background: #606060;
+    color: #dfff5f;
+    border-color: #dfff5f;
+    
+  }
+  &:hover {
+    background: #acacac;
+    color: #dfff5f;
+  }
+}
